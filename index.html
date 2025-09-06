@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="exam-container">
+            <header>
+                <h1>JavaScript Exam</h1>
+                <div class="timer-container">
+                    <div class="timer" id="timer">10:00</div>
+                </div>
+            </header>
+            
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            
+            <div class="question-number" id="question-number">Question 1 of 10</div>
+            <div class="question" id="question"></div>
+            
+            <div class="options" id="options"></div>
+            
+            <div class="navigation">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+                <button id="submit-btn">Submit Exam</button>
+            </div>
+        </div>
+        
+        <div class="result-container" id="result-container">
+            <h2>Exam Completed!</h2>
+            <div class="score" id="score"></div>
+            <div class="message" id="message"></div>
+            <button id="restart-btn">Take Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
